@@ -80,7 +80,7 @@ bundle exec jekyll build
 **Business Focus:**
 - The site is positioned for pharmaceutical companion diagnostics, specifically Phase 3 trial de-risking and failed asset rescue
 - Primary therapeutic areas: oncology immunotherapies, autoimmune biologics, CNS therapeutics
-- The "Dynomics" platform is the proprietary technology
+- The multi-omics AI platform is the proprietary technology
 
 **Service Pages:**
 - Currently consolidated into one comprehensive service (`service1.md`)

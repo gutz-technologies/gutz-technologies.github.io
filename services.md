@@ -12,4 +12,4 @@ published: false
 
 We develop AI-powered companion diagnostics to de-risk Phase 3 clinical trials and rescue failed assets in oncology, autoimmune, and neurological therapeutic areas.
 
-Our proprietary Dynomics platform integrates microbiome, metabolomics, genomics, and transcriptomics data with exponential accuracy scaling—doubling omics layers yields 5x improvement in patient stratification.
+Our proprietary platform integrates microbiome, metabolomics, genomics, and transcriptomics data with exponential accuracy scaling—adding more biological data layers yields exponentially better patient stratification.

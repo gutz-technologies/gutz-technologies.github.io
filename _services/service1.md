@@ -5,11 +5,11 @@ weight: 1
 ---
 We develop multi-omics companion diagnostics to identify patient responder populations in oncology, autoimmune, and neurological clinical trials—whether you're approaching Phase 3 or seeking to rescue a failed asset.
 
-## The Dynomics Platform Advantage
+## Our Platform Advantage
 
 Our proprietary platform integrates microbiome, metabolomics, genomics, and transcriptomics data to identify multi-omics signatures that predict treatment response.
 
-**Exponential Accuracy Scaling:** Doubling the number of omics layers yields 5x improvement in forecasting accuracy, enabling robust patient stratification even in complex heterogeneous populations.
+**Exponential Accuracy Scaling:** Adding more biological data layers yields exponentially better forecasting accuracy, enabling robust patient stratification even in complex heterogeneous populations.
 
 **Proprietary Database:** 1 million curated samples across microbiome and host transcriptome provide unprecedented validation power for biomarker discovery.
 

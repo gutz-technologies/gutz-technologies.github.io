@@ -1,5 +1,5 @@
 ---
 title: Gutz Technologies
 layout: home-redesign
-description: Multi-Omics AI for Precision Medicine
+description: At-home sampling kits and AI that help you find interventions that work for your unique biology
 ---
