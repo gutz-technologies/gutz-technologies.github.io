@@ -1,0 +1,471 @@
+// New Homepage Design - Clean, Spacious Layout
+
+// ============================================
+// CONTAINERS
+// ============================================
+
+.container-wide {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  @media (max-width: $breakpoint-lg) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+// ============================================
+// HERO SECTION
+// ============================================
+
+.hero-section {
+  background: linear-gradient(135deg, $white 0%, $gray-50 100%);
+  min-height: 85vh; // Fill most of viewport
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 0; // Fallback padding
+
+  @media (max-width: $breakpoint-md) {
+    min-height: 70vh;
+    padding: 3rem 0;
+  }
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-headline {
+  font-size: 3.5rem;
+  font-weight: $font-bold;
+  color: $primary-dark;
+  margin: 0 0 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+
+  @media (max-width: $breakpoint-lg) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .text-accent {
+    color: $accent-teal;
+  }
+}
+
+.hero-subhead {
+  font-size: 1.5rem;
+  font-weight: $font-normal;
+  color: $gray-700;
+  margin: 0;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 1.25rem;
+  }
+}
+
+// Old hero-minimal styles (kept for compatibility)
+.hero-minimal {
+  background: $white;
+  padding: 5rem 0 10rem;
+  text-align: center;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 4rem 0 6rem;
+  }
+}
+
+.hero-logo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+  display: block;
+
+  @media (max-width: $breakpoint-md) {
+    max-width: 280px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.hero-tagline {
+  font-size: 1.5rem;
+  font-weight: $font-normal;
+  color: $gray-700;
+  margin: 0;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 1.25rem;
+  }
+}
+
+// ============================================
+// SPLIT SECTIONS (Text + Image)
+// ============================================
+
+.section-split {
+  padding: 8rem 0; // Huge vertical padding
+
+  @media (max-width: $breakpoint-md) {
+    padding: 5rem 0;
+  }
+}
+
+.section-light {
+  background: $white;
+}
+
+.section-dark {
+  background: $gray-50;
+}
+
+.split-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem; // Lots of space between image and text
+  align-items: center;
+
+  @media (max-width: $breakpoint-lg) {
+    gap: 4rem;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  &.reverse {
+    .split-visual {
+      order: 2;
+
+      @media (max-width: $breakpoint-md) {
+        order: 1;
+      }
+    }
+
+    .split-text {
+      order: 1;
+
+      @media (max-width: $breakpoint-md) {
+        order: 2;
+      }
+    }
+  }
+}
+
+.split-text {
+  h2 {
+    font-size: 2.5rem;
+    font-weight: $font-bold;
+    color: $primary-blue;
+    margin-bottom: 2rem; // Good spacing
+    line-height: 1.3;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: $gray-700;
+    margin-bottom: 2rem;
+  }
+
+  strong {
+    color: $primary-dark;
+  }
+}
+
+.split-visual {
+  .section-image {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-lg;
+  }
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: $gray-600;
+    margin-bottom: 1.5rem; // Generous spacing between items
+    padding-left: 2rem;
+    position: relative;
+
+    &::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: $accent-teal;
+      font-weight: $font-bold;
+      font-size: 1.25rem;
+    }
+
+    strong {
+      color: $primary-dark;
+    }
+  }
+}
+
+// ============================================
+// COLLABORATIONS SECTION
+// ============================================
+
+.collaborations-section {
+  padding: 8rem 0;
+  background: $white;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 5rem 0;
+  }
+}
+
+.section-title-center {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: $font-bold;
+  color: $primary-blue;
+  margin-bottom: 4rem; // Lots of space before logos
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; // Minimal padding
+  background: $gray-50;
+  border-radius: $radius-lg;
+  font-weight: $font-semibold;
+  color: $gray-600;
+  font-size: 1.125rem;
+  min-height: 160px; // Reverted to original container size
+  transition: $transition-all;
+
+  &:hover {
+    background: $white;
+    box-shadow: $shadow-lg;
+    transform: translateY(-4px);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 180px; // Larger logos
+  }
+}
+
+// ============================================
+// WHITEPAPER CTA SECTION
+// ============================================
+
+.whitepaper-cta-section {
+  background: linear-gradient(135deg, $primary-blue 0%, $accent-teal 100%);
+  padding: 6rem 0;
+  color: $white;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 4rem 0;
+  }
+}
+
+.whitepaper-cta-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+}
+
+.whitepaper-cta-text {
+  h2 {
+    font-size: 2.5rem;
+    font-weight: $font-bold;
+    color: $white;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: $font-medium;
+    color: rgba($white, 0.9);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 1.25rem;
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: rgba($white, 0.9);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.whitepaper-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: $breakpoint-lg) {
+    display: inline-block;
+    text-align: left;
+  }
+
+  li {
+    font-size: 1.125rem;
+    color: rgba($white, 0.95);
+    margin-bottom: 0.75rem;
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.6;
+
+    &::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: $accent-gold;
+      font-weight: $font-bold;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.whitepaper-cta-action {
+  text-align: center;
+
+  .btn-primary-large {
+    background: $white;
+    color: $primary-blue;
+
+    &:hover {
+      background: $gray-50;
+      color: $primary-dark;
+    }
+  }
+}
+
+// ============================================
+// CTA SECTION
+// ============================================
+
+.cta-section {
+  padding: 8rem 0;
+  background: linear-gradient(135deg, $primary-dark 0%, $primary-blue 100%);
+  text-align: center;
+  color: $white;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 5rem 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: $font-bold;
+    color: $white;
+    margin-bottom: 1.5rem;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: rgba($white, 0.9);
+    margin-bottom: 3rem;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.btn-primary-large {
+  display: inline-block;
+  background: $accent-gold;
+  color: $white;
+  padding: 1.25rem 3rem;
+  font-size: 1.25rem;
+  font-weight: $font-semibold;
+  border-radius: $radius-lg;
+  text-decoration: none;
+  transition: $transition-all;
+  box-shadow: $shadow-lg;
+
+  &:hover {
+    background: darken($accent-gold, 10%);
+    transform: translateY(-4px);
+    box-shadow: $shadow-2xl;
+    color: $white;
+  }
+}
+
+// ============================================
+// DARK MODE SUPPORT FOR SCIKIT-BIO SECTION
+// ============================================
+
+.section-dark {
+  h2 {
+    color: $primary-dark;
+  }
+
+  p {
+    color: $gray-700;
+  }
+}

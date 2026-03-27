@@ -1,0 +1,253 @@
+// Typography Styles
+
+// Import Google Fonts (Inter)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+// ============================================
+// BASE TYPOGRAPHY
+// ============================================
+
+body {
+  font-family: $font-primary;
+  font-size: $text-base;
+  font-weight: $font-normal;
+  line-height: $leading-normal;
+  color: $gray-900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ============================================
+// HEADINGS
+// ============================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-bold;
+  line-height: $leading-tight;
+  color: $primary-dark;
+  margin-bottom: $spacing-4;
+}
+
+h1 {
+  font-size: $text-5xl;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-4xl;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-3xl;
+  }
+}
+
+h2 {
+  font-size: $text-4xl;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-3xl;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-2xl;
+  }
+}
+
+h3 {
+  font-size: $text-3xl;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-2xl;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-xl;
+  }
+}
+
+h4 {
+  font-size: $text-2xl;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-xl;
+  }
+}
+
+h5 {
+  font-size: $text-xl;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-lg;
+  }
+}
+
+h6 {
+  font-size: $text-lg;
+}
+
+// ============================================
+// PARAGRAPHS & TEXT
+// ============================================
+
+p {
+  margin-bottom: $spacing-4;
+  line-height: $leading-relaxed;
+  color: $gray-600;
+}
+
+.lead {
+  font-size: $text-xl;
+  font-weight: $font-medium;
+  line-height: $leading-relaxed;
+  color: $gray-700;
+}
+
+.text-small {
+  font-size: $text-sm;
+}
+
+.text-large {
+  font-size: $text-lg;
+}
+
+// ============================================
+// LINKS
+// ============================================
+
+a {
+  color: $accent-teal;
+  text-decoration: none;
+  transition: $transition-colors;
+
+  &:hover {
+    color: darken($accent-teal, 10%);
+  }
+}
+
+// ============================================
+// LISTS
+// ============================================
+
+ul, ol {
+  margin-bottom: $spacing-4;
+  padding-left: $spacing-6;
+
+  li {
+    margin-bottom: $spacing-2;
+    line-height: $leading-relaxed;
+    color: $gray-600;
+  }
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+// ============================================
+// EMPHASIS
+// ============================================
+
+strong, b {
+  font-weight: $font-semibold;
+  color: $gray-900;
+}
+
+em, i {
+  font-style: italic;
+}
+
+mark {
+  background-color: rgba($accent-gold, 0.2);
+  padding: 0.125rem 0.25rem;
+  border-radius: $radius-sm;
+}
+
+// ============================================
+// CODE & MONOSPACE
+// ============================================
+
+code {
+  font-family: $font-mono;
+  font-size: 0.875em;
+  background-color: $gray-100;
+  padding: 0.2em 0.4em;
+  border-radius: $radius-sm;
+  color: $primary-blue;
+}
+
+pre {
+  font-family: $font-mono;
+  font-size: $text-sm;
+  background-color: $gray-900;
+  color: $gray-100;
+  padding: $spacing-4;
+  border-radius: $radius-lg;
+  overflow-x: auto;
+  margin-bottom: $spacing-4;
+
+  code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+// ============================================
+// BLOCKQUOTES
+// ============================================
+
+blockquote {
+  border-left: 4px solid $accent-teal;
+  padding-left: $spacing-4;
+  margin: $spacing-6 0;
+  font-size: $text-lg;
+  font-style: italic;
+  color: $gray-700;
+}
+
+// ============================================
+// UTILITY CLASSES
+// ============================================
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-primary {
+  color: $primary-blue !important;
+}
+
+.text-accent {
+  color: $accent-teal !important;
+}
+
+.text-muted {
+  color: $gray-500 !important;
+}
+
+.font-normal {
+  font-weight: $font-normal !important;
+}
+
+.font-medium {
+  font-weight: $font-medium !important;
+}
+
+.font-semibold {
+  font-weight: $font-semibold !important;
+}
+
+.font-bold {
+  font-weight: $font-bold !important;
+}

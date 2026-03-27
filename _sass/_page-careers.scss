@@ -1,0 +1,112 @@
+// Careers Page Styles
+
+// ============================================
+// CAREERS HERO
+// ============================================
+
+.hero-careers {
+  background: linear-gradient(135deg, $primary-dark 0%, $primary-blue 100%);
+  padding: 6rem 0;
+  text-align: center;
+  color: $white;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 4rem 0;
+  }
+
+  .hero-heading {
+    font-size: 3.5rem;
+    font-weight: $font-bold;
+    color: $white;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+
+    @media (max-width: $breakpoint-lg) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: rgba($white, 0.9);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+// ============================================
+// CAREERS GRID
+// ============================================
+
+.careers-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+// ============================================
+// CAREER CARD
+// ============================================
+
+.career-card {
+  background: $white;
+  padding: 2.5rem;
+  border-radius: $radius-lg;
+  border: 2px solid $gray-200;
+  transition: $transition-all;
+
+  &:hover {
+    border-color: $accent-teal;
+    box-shadow: $shadow-lg;
+    transform: translateY(-4px);
+  }
+
+  .career-title {
+    font-size: 1.5rem;
+    font-weight: $font-semibold;
+    color: $primary-dark;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+
+  .career-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .career-description {
+    font-size: 1.125rem;
+    color: $gray-700;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .career-apply {
+    display: inline-flex;
+    align-items: center;
+    color: $accent-teal;
+    font-weight: $font-semibold;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: $transition-all;
+
+    &:hover {
+      color: darken($accent-teal, 10%);
+      transform: translateX(4px);
+    }
+  }
+}

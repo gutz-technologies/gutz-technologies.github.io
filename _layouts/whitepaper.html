@@ -1,0 +1,121 @@
+---
+layout: default
+bodyClass: "page-whitepaper"
+---
+
+<!-- Whitepaper Hero -->
+<section class="whitepaper-hero">
+  <div class="container-wide">
+    <div class="whitepaper-content">
+      <div class="whitepaper-info">
+        <p class="context-note">This case study demonstrates our Dynomics platform's capabilities. Our current primary focus is autism research, where the same multi-omics approach achieves >80% prediction accuracy.</p>
+        <h1 class="whitepaper-title">{{ page.title }}</h1>
+        <p class="whitepaper-description">{{ page.description }}</p>
+
+        <div class="whitepaper-highlights">
+          <h3>What You'll Learn:</h3>
+          <ul>
+            <li>Why most patients don't respond to immunotherapy</li>
+            <li>How multi-omics biomarkers improve patient selection</li>
+            <li>Real-world case studies from pharma development</li>
+            <li>Framework for de-risking Phase 3 trials</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="whitepaper-form-container">
+        <div class="form-card">
+          <h2>Download the Whitepaper</h2>
+          <p class="form-subtitle">Enter your details to access the full report</p>
+
+          <form id="whitepaper-form" class="whitepaper-form" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Work Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+
+            <div class="form-group">
+              <label for="role">Role</label>
+              <input type="text" id="role" name="role" placeholder="e.g., VP R&D, Clinical Director">
+            </div>
+
+            <input type="hidden" name="whitepaper" value="Immunotherapy Response Prediction">
+            <input type="hidden" name="download_date" id="download_date">
+
+            <button type="submit" class="btn-primary-large">Download Whitepaper</button>
+          </form>
+
+          <p class="form-privacy">We respect your privacy. Your information will not be shared with third parties.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// Set download date
+document.getElementById('download_date').value = new Date().toISOString();
+
+// Handle form submission
+document.getElementById('whitepaper-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData);
+
+  try {
+    // Send to Formspree
+    const response = await fetch('https://formspree.io/f/mrbjevez', {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      // Show success and trigger download
+      const formCard = document.querySelector('.form-card');
+      formCard.innerHTML = `
+        <div class="success-message">
+          <h2>✓ Success!</h2>
+          <p>Your download is ready.</p>
+          <a href="/assets/downloads/immunotherapy-whitepaper.pdf" class="btn-primary-large" download>Download Whitepaper PDF</a>
+          <p class="success-note">The download should start automatically. If not, click the button above.</p>
+        </div>
+      `;
+
+      // Auto-download
+      setTimeout(() => {
+        window.location.href = '/assets/downloads/immunotherapy-whitepaper.pdf';
+      }, 500);
+
+      // Optional: Track with Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'download', {
+          'event_category': 'Whitepaper',
+          'event_label': 'Immunotherapy White Paper',
+          'value': data.email
+        });
+      }
+    } else {
+      throw new Error('Form submission failed');
+    }
+  } catch (error) {
+    // Fallback: still allow download even if email fails
+    console.error('Error:', error);
+    alert('Thank you! Your download will start now.');
+    window.location.href = '/assets/downloads/immunotherapy-whitepaper.pdf';
+  }
+});
+</script>

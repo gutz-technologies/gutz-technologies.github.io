@@ -1,0 +1,42 @@
+---
+layout: default
+bodyClass: "page-careers"
+---
+
+<!-- Careers Hero -->
+<section class="hero-careers">
+  <div class="container-wide">
+    <h1 class="hero-heading">Join Our Team</h1>
+    <p class="hero-subtitle">Help us bridge the gap between diagnosis and therapy by integrating genomics, proteomics, metabolomics, and more to subtype autism</p>
+  </div>
+</section>
+
+<!-- Job Listings -->
+<section class="section-split section-light">
+  <div class="container-wide">
+    <h2 class="section-title-center">Open Positions</h2>
+
+    <div class="careers-grid">
+      {% for job in site.data.careers %}
+      <div class="career-card">
+        <h3 class="career-title">{{ job.title }}</h3>
+        <div class="career-meta">
+          <span class="badge badge-primary">{{ job.location }}</span>
+          <span class="badge badge-secondary">Start: {{ job.start_date }}</span>
+        </div>
+        <p class="career-description">{{ job.blurb }}</p>
+        <a href="mailto:hello@gutzanalytics.com?subject=Application: {{ job.title }}" class="career-apply">Apply Now &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="container-wide">
+    <h2>Interested in Joining Us?</h2>
+    <p>Send your CV and a brief note about yourself to <strong style="color: #ffffff;">hello@gutzanalytics.com</strong></p>
+    <a href="mailto:hello@gutzanalytics.com" class="btn-primary-large">Get in Touch</a>
+  </div>
+</section>

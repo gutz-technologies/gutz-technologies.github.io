@@ -1,0 +1,49 @@
+// Team Section Styles
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 900px;
+  margin: 3rem auto;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.team-member {
+  text-align: center;
+
+  .team-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+    border: 3px solid #e5e7eb;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+  }
+
+  .team-title {
+    font-size: 1.125rem;
+    color: #1e3a8a;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .team-bio {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #475569;
+    text-align: left;
+  }
+}
