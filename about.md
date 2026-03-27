@@ -33,13 +33,13 @@ The same platform powers applications in oncology (immunotherapy response), auto
     <img src="/images/team/mehrbod_estaki.jpeg" alt="Mehrbod Estaki" class="team-photo">
     <h3>Mehrbod Estaki, PhD</h3>
     <p class="team-title">Project Lead</p>
-    <p class="team-bio"><a href="https://www.linkedin.com/in/mestaki/" target="_blank">LinkedIn</a></p>
+    <p class="team-bio">Dr. Mehrbod Estaki is a microbiome researcher and bioinformatician with expertise in gut microbial ecology, community analysis, and high-throughput sequencing. He earned his PhD from the University of British Columbia and conducted postdoctoral research in the Knight Lab at UC San Diego, where he investigated the gut-brain axis. A contributor to the widely used QIIME 2 bioinformatics platform, Mehrbod brings deep experience in multi-omics data analysis, sequencing pipeline development, and microbiome-disease associations.</p>
   </div>
 
   <div class="team-member">
     <img src="/images/team/colin_brislawn.jpeg" alt="Colin Brislawn" class="team-photo">
     <h3>Colin Brislawn</h3>
     <p class="team-title">Bioinformatics Consultant</p>
-    <p class="team-bio"><a href="https://www.linkedin.com/in/colin-j-brislawn-007233a3/" target="_blank">LinkedIn</a></p>
+    <p class="team-bio">Colin Brislawn is a microbiome bioinformatics specialist with extensive experience in amplicon sequencing analysis, multi-omics integration, and data visualization. Formerly a researcher at Pacific Northwest National Laboratory (PNNL), he has contributed to significant microbiome research and is an active developer in the QIIME 2 ecosystem, building tools for reproducible sequencing analysis. His work spans microbial ecology, high-throughput sequencing informatics, and open-source bioinformatics tool development.</p>
   </div>
 </div>
