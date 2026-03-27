@@ -1,16 +1,16 @@
 #baseurl: '/'
 permalink: pretty
-title: 'Gutz Analytics'
+title: 'Gutz Technologies'
 
 logo:
-  mobile: "images/logo/logo.svg"
+  mobile: "images/logo/logo.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/logo.png"
   desktop_height: "60px"
   desktop_width: "150px"
 
-#url: http://www.gutzanalytics.com/
+#url: http://www.gutztechnologies.com/
 
 jekyll-mentions:
   base_url: https://github.com

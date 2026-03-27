@@ -90,4 +90,4 @@ Single-omics approaches miss critical interactions. Patient microbiome compositi
 
 Our platform reveals patterns no single omics layer can detect, maximizing your ability to identify true responder populations versus statistical noise.
 
-[Contact us](https://gutzanalytics.com/contact/) to discuss de-risking your Phase 3 program or rescuing your failed asset.
+[Contact us](https://gutztechnologies.com/contact/) to discuss de-risking your Phase 3 program or rescuing your failed asset.
