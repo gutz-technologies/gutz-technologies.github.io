@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based static website for Gutz Analytics, a pharmaceutical companion diagnostics company. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The content focuses on multi-omics AI platforms for companion diagnostic development in oncology, autoimmune, and neurological diseases.
+This is a Jekyll-based static website for Gutz Technologies, a pharmaceutical companion diagnostics company. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The content focuses on multi-omics AI platforms for companion diagnostic development in oncology, autoimmune, and neurological diseases.
 
 ## Development Commands
 
@@ -80,7 +80,7 @@ bundle exec jekyll build
 **Business Focus:**
 - The site is positioned for pharmaceutical companion diagnostics, specifically Phase 3 trial de-risking and failed asset rescue
 - Primary therapeutic areas: oncology immunotherapies, autoimmune biologics, CNS therapeutics
-- The "Dynomics" platform is the proprietary technology
+- The multi-omics AI platform is the proprietary technology
 
 **Service Pages:**
 - Currently consolidated into one comprehensive service (`service1.md`)
@@ -108,5 +108,5 @@ The site is configured for GitHub Pages deployment. When deploying to a subdirec
 
 - The `_site/` directory contains the generated static site and should not be edited directly
 - Images are stored in `images/` directory
-- Custom domain configured via `CNAME` file (gutzanalytics.com)
+- Custom domain configured via `CNAME` file (gutztechnologies.com)
 - Jekyll excludes Gemfile, vendor directories, and documentation files from the build (see `exclude` in config)
