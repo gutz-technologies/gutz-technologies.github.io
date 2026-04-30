@@ -9,7 +9,7 @@ bodyClass: page-about
 
 Gutz Technologies is building tools that help people understand their own biology—and find interventions that actually work for them.
 
-We're developing at-home sampling kits that measure multiple aspects of a person's biology: their gut microbiome, metabolism, proteins, and genetics. Our AI combines these measurements to build a **digital twin**—a personalized model of how someone's biology works—and uses it to predict which interventions are most likely to help their specific symptoms.
+We measure multiple aspects of a person's biology: their gut microbiome, metabolism, proteins, and genetics. Our AI combines these measurements to build a **digital twin**—a personalized model of how someone's biology works—and uses it to predict which interventions are most likely to help their specific symptoms.
 
 ### How Digital Twins Work
 
