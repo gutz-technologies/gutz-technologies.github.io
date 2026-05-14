@@ -14,8 +14,8 @@ bodyClass: "page-careers"
 <!-- Job Listings -->
 <section class="section-split section-light">
   <div class="container-wide">
+    {% if site.data.careers.size > 0 %}
     <h2 class="section-title-center">Open Positions</h2>
-
     <div class="careers-grid">
       {% for job in site.data.careers %}
       <div class="career-card">
@@ -29,14 +29,18 @@ bodyClass: "page-careers"
       </div>
       {% endfor %}
     </div>
+    {% else %}
+    <h2 class="section-title-center">No Open Positions</h2>
+    <p style="text-align: center; max-width: 600px; margin: 0 auto; font-size: 1.1rem; color: #555;">All positions are currently filled. We're always interested in hearing from talented people — feel free to reach out if you'd like to be considered for future opportunities.</p>
+    {% endif %}
   </div>
 </section>
 
 <!-- CTA Section -->
 <section class="cta-section">
   <div class="container-wide">
-    <h2>Interested in Joining Us?</h2>
-    <p>Send your CV and a brief note about yourself to <strong style="color: #ffffff;">careers@gutztechnologies.com</strong></p>
+    <h2>Stay in Touch</h2>
+    <p>Interested in future opportunities? Send your CV and a brief note to <strong style="color: #ffffff;">careers@gutztechnologies.com</strong></p>
     <a href="mailto:careers@gutztechnologies.com" class="btn-primary-large">Get in Touch</a>
   </div>
 </section>
