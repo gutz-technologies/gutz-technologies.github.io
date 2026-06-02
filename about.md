@@ -7,21 +7,21 @@ bodyClass: page-about
 
 ## What We Do
 
-Gutz Technologies is building tools that help people understand their own biology—and find interventions that actually work for them.
+Gutz Technologies builds multi-omics AI that identifies which existing drugs work for which biological subtypes—and designs the experiments that prove it. We partner with pharmaceutical teams and research consortia on drug repositioning and trial design.
 
-We measure multiple aspects of a person's biology: their gut microbiome, metabolism, proteins, and genetics. Our AI combines these measurements to build a **digital twin**—a personalized model of how someone's biology works—and uses it to predict which interventions are most likely to help their specific symptoms.
+We measure multiple layers of patient biology: the gut microbiome, metabolism, proteins, and genetics. Our AI combines these measurements to build a **digital twin**—a model of how a patient's biology works—and uses it to predict which interventions are most likely to help a given subtype, before they're tested in the clinic.
 
 ### How Digital Twins Work
 
-Think of a digital twin like a weather forecast, but for your body. Just as meteorologists combine temperature, pressure, and wind data to predict tomorrow's weather, we combine data from multiple biological systems to model how your body works.
+Think of a digital twin like a weather forecast, but for human biology. Just as meteorologists combine temperature, pressure, and wind data to predict tomorrow's weather, we combine data from multiple biological systems to model how a patient's body works.
 
 Our AI doesn't just take a snapshot. It learns how your biology **changes over time**, capturing interactions between your gut bacteria, metabolism, and immune system. This lets us predict how you'll respond to different interventions—before you try them.
 
 Under the hood, this is powered by a type of AI designed to learn patterns in complex, changing systems. Where standard AI sees a still photo, our platform sees the whole movie.
 
-### Our Current Focus: Autism Spectrum Disorder
+### Our Initial Focus: Autism Spectrum Disorder
 
-We're starting with autism because it's a condition where the same diagnosis can look completely different from one person to the next. Our published research in *Nature Neuroscience* showed that by combining gut microbiome and molecular data, we could identify distinct subtypes of ASD with over 80% accuracy—a level of precision that opens the door to genuinely personalized care.
+We're starting with autism because it's a condition where the same diagnosis can look completely different from one patient to the next—exactly the kind of heterogeneity that defeats one-size-fits-all therapies. Our published research in *Nature Neuroscience* showed that by combining gut microbiome and molecular data, we could identify distinct subtypes of ASD with over 80% accuracy. That subtype resolution is the foundation for matching existing compounds to the patients they're most likely to help, and for designing trials that can detect those effects.
 
 ### Why Our Approach Is Different
 

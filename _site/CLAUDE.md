@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based static website for Gutz Technologies, a pharmaceutical companion diagnostics company. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The content focuses on multi-omics AI platforms for companion diagnostic development in oncology, autoimmune, and neurological diseases.
+This is a Jekyll-based static website for Gutz Technologies, a multi-omics AI company focused on drug repositioning and experimental design (trial/biomarker design) for pharmaceutical and research partners. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The platform models patient biology across multiple molecular layers to resolve disease subtypes, match existing compounds to the subtypes they work in, and design the experiments that prove it. Companion diagnostics is a related, secondary capability rather than the core positioning. Autism spectrum disorder is the initial focus area; the platform also applies to oncology, autoimmune, and neurological diseases.
+
+**Positioning note:** The company is platform/services-led and pharma-led in audience. It is currently undecided whether it will ever own and develop a repositioned asset itself — so site copy should NOT imply Gutz takes drugs through the clinic. Frame repositioning as surfacing prioritized candidates and evidence *for partners*, who take them forward. Avoid "lead indication" (implies an owned pipeline); use "initial focus" instead.
 
 ## Development Commands
 
@@ -78,13 +80,15 @@ bundle exec jekyll build
 ## Content Guidelines
 
 **Business Focus:**
-- The site is positioned for pharmaceutical companion diagnostics, specifically Phase 3 trial de-risking and failed asset rescue
-- Primary therapeutic areas: oncology immunotherapies, autoimmune biologics, CNS therapeutics
+- The site is positioned around drug repositioning and experimental design (trial cohort stratification + biomarker panel design); companion diagnostics is a related, secondary capability
+- Audience is pharma-led/both: pharmaceutical BD/portfolio/clinical teams and research consortia (e.g. Wellcome LEAP). Not direct-to-patient/B2C
+- Initial focus area: autism spectrum disorder (validated via Nature Neuroscience subtype work). Platform also applies to oncology immunotherapies, autoimmune biologics, CNS therapeutics
 - The multi-omics AI platform is the proprietary technology
+- Do not overclaim asset ownership: it is undecided whether Gutz will develop a repositioned asset itself — frame outputs as candidates/evidence delivered to partners
 
 **Service Pages:**
 - Currently consolidated into one comprehensive service (`service1.md`)
-- Service content covers both prospective (Phase 3 de-risking) and retrospective (failed asset rescue) applications
+- Service content covers drug repositioning and experimental design as the primary offerings, with companion diagnostics as a related capability
 - Weight parameter controls ordering when multiple services exist
 
 **Homepage Content:**

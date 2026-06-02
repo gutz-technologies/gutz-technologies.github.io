@@ -1,9 +1,9 @@
 ---
-title: "Companion Diagnostic Development"
+title: "Drug Repositioning & Experimental Design"
 date: 2019-01-28T15:15:26+10:00
 weight: 1
 ---
-We develop multi-omics companion diagnostics to identify patient responder populations in oncology, autoimmune, and neurological clinical trials—whether you're approaching Phase 3 or seeking to rescue a failed asset.
+We use multi-omics AI to identify which existing compounds are likely to work for which biological subtypes—and to design the trials and biomarker panels that prove it. Our initial focus is autism spectrum disorder, with the same platform applicable across oncology, autoimmune, and neurological diseases.
 
 ## Our Platform Advantage
 
@@ -13,35 +13,39 @@ Our proprietary platform integrates microbiome, metabolomics, genomics, and tran
 
 **Proprietary Database:** 1 million curated samples across microbiome and host transcriptome provide unprecedented validation power for biomarker discovery.
 
-**Proven Methodology:** Published in Nature journals and validated through pharmaceutical collaborations across multiple therapeutic areas.
+**Proven Methodology:** Published in Nature journals and validated through pharmaceutical collaborations and research consortia across multiple therapeutic areas.
 
-## Two Critical Applications
+## What We Do
 
-### Prospective: De-Risk Phase 3 Trials
+### Drug Repositioning
 
-Design companion diagnostics before your Phase 3 trial to identify and enrich for patient responders.
+Surface existing, already-de-risked compounds likely to work for specific biological subtypes—giving partners a faster, lower-risk path to the clinic.
 
-**The Challenge:** Phase 3 trials fail at rates exceeding 50%, often due to patient heterogeneity masking treatment effects in responsive subpopulations. Average costs: $100M-$300M.
+**The Opportunity:** Most therapies fail not because the molecule doesn't work, but because it works only in a subpopulation that trials never isolated. Existing compounds carry known safety profiles and manufacturing—repositioning them against the right biological subtype is faster and cheaper than developing new chemistry.
 
-**Our Solution:** Analyze Phase 1/2 data or existing datasets to identify multi-omics biomarkers predicting treatment response. Design companion diagnostics for prospective patient selection, increasing statistical power and trial success probability.
+**Our Approach:** We model patient biology across multiple molecular layers to resolve heterogeneous populations into well-defined subtypes, then identify the compounds—approved or shelved—whose mechanism aligns with the biology actually driving symptoms. We deliver the prioritized candidates and the evidence behind them; our partners take them forward.
 
 **Example Scenarios:**
-- **Oncology:** Your checkpoint inhibitor shows 35% response in Phase 2. We develop companion diagnostics to enrich for responders, targeting 60%+ response in Phase 3.
-- **Autoimmune:** Your biologic shows variable response. We identify multi-omics signatures predicting responders for stratified enrollment.
-- **Neurological:** Your CNS drug demonstrates efficacy in subsets. We leverage gut-brain axis biomarkers to enrich for responsive patients.
+- **Autism (initial focus):** We identify microbiome- and metabolite-defined subtypes and prioritize existing compounds whose mechanisms target the pathways driving each subtype.
+- **Neurological:** Gut-brain axis signatures point to repositioning candidates for biologically defined patient subsets.
+- **Autoimmune:** Inflammatory phenotypes identified across omics layers suggest existing biologics likely to benefit specific responder groups.
 
-### Retrospective: Rescue Failed Assets
+### Experimental Design
 
-Identify patient responder subpopulations from failed Phase 3 trials through retrospective multi-omics analysis.
+Design trials and biomarker panels that maximize signal before money is spent on a study.
 
-**The Opportunity:** Failed Phase 3 trials represent billions in lost investment, yet many contain hidden responder populations where therapy demonstrates significant efficacy. Identifying these populations enables refined indications and companion diagnostic-based approval strategies.
+**The Challenge:** Trials fail at high rates when patient heterogeneity masks real treatment effects in responsive subpopulations. The cost of a mis-powered or mis-stratified study is enormous.
 
-**Our Approach:** Comprehensive integration of microbiome, metabolomics, genomics, transcriptomics, and clinical data from your trial. Our platform identifies multi-omics signatures distinguishing responders from non-responders with exponentially improved accuracy.
+**Our Solution:** Analyze Phase 1/2 data or existing datasets to identify the multi-omics biomarkers that predict response, then design cohort stratification and biomarker panels that enrich for responders—increasing statistical power and the probability of a clear result.
 
-**Rescue Scenarios:**
-- **Oncology:** Your immunotherapy showed 30% overall response. Multi-omics analysis identifies a subset with 70% response based on microbiome and immune transcriptome signatures.
-- **Autoimmune:** Your IBD therapy showed modest overall benefit. We identify responder microbiome signatures for targeted patient population approval.
-- **Neurological:** Your CNS therapeutic failed on primary endpoints. Gut-brain axis analysis identifies responsive subpopulations for stratified approval or adaptive trial design.
+**What This Looks Like:**
+- **Cohort stratification:** Define the responder subpopulation up front so enrollment enriches for signal.
+- **Biomarker selection:** Choose the minimal multi-omics panel that separates responders from non-responders.
+- **Endpoint and power planning:** Align endpoints and sample size to the biology, not to a one-size-fits-all population.
+
+## Related: Companion Diagnostics
+
+The same signature that says "this drug works in this subpopulation" can be developed into a companion diagnostic—turning a repositioning thesis into a regulated, reimbursable test. For partners whose program calls for it, we support biomarker qualification, assay validation, and regulatory strategy (see Deliverables below).
 
 ## Therapeutic Area Expertise
 
@@ -90,4 +94,4 @@ Single-omics approaches miss critical interactions. Patient microbiome compositi
 
 Our platform reveals patterns no single omics layer can detect, maximizing your ability to identify true responder populations versus statistical noise.
 
-[Contact us](https://gutztechnologies.com/contact/) to discuss de-risking your Phase 3 program or rescuing your failed asset.
+[Contact us](https://gutztechnologies.com/contact/) to discuss repositioning a compound, stratifying your patient population, or designing a trial that succeeds.

@@ -1,5 +1,5 @@
 ---
 title: Gutz Technologies
 layout: home-redesign
-description: AI that helps you find interventions that work for your unique biology
+description: Multi-omics AI for drug repositioning and trial design—matching existing compounds to the biological subtypes they work in
 ---
