@@ -23,6 +23,20 @@ bodyClass: page-team
   </div>
 
   <div class="team-member">
+    <img src="/images/team/hayley_hassler.jpg" alt="Hayley Hassler" class="team-photo">
+    <h3>Hayley Hassler, PhD</h3>
+    <p class="team-title">Bioinformatics Scientist</p>
+    <p class="team-bio">Dr. Hayley Hassler is a computational biologist with a PhD in Quantitative Biosciences from the Georgia Institute of Technology and an MS in Microbiology. Her research has spanned publications from The Lancet Microbe to PNAS, with findings cited in FDA briefing documents. At Gutz, she specializes in building machine learning models that integrate multi-omics data to uncover the relationship between the microbiome and human health.</p>
+  </div>
+
+  <div class="team-member">
+    <img src="/images/team/justice_lu.jpg" alt="Justice Lu" class="team-photo">
+    <h3>Justice Lu, PhD</h3>
+    <p class="team-title">Machine Learning Engineer</p>
+    <p class="team-bio">Justice Lu enjoys applying machine learning and computational biology to solve challenging problems in the life sciences. He earned his PhD in Molecular Genetics and Microbiology from Duke University, where his graduate research investigated how the sense of smell works by applying computational approaches to decode receptors. With a background in both experimental biology and computational modeling, he is interested in applying an interdisciplinary perspective to developing AI-driven methods and software for biological discovery.</p>
+  </div>
+
+  <div class="team-member">
     <img src="/images/team/colin_brislawn.jpeg" alt="Colin Brislawn" class="team-photo">
     <h3>Colin Brislawn</h3>
     <p class="team-title">Bioinformatics Consultant</p>
