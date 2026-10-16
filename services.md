@@ -10,6 +10,6 @@ published: false
 
 # Multi-Omics AI for Drug Repositioning & Experimental Design
 
-We identify which existing compounds work for which biological subtypes—and design the trials and biomarker panels that prove it—across autism (our initial focus), oncology, autoimmune, and neurological therapeutic areas.
+We develop multi-omics models to help partners prioritize therapeutic hypotheses, candidate biomarkers, and experiments. Autism spectrum disorder is our initial focus; oncology, autoimmune, and neurological applications each require their own evaluation.
 
-Our proprietary platform integrates microbiome, metabolomics, genomics, and transcriptomics data with exponential accuracy scaling—adding more biological data layers yields exponentially better patient stratification.
+Microbiome, metabolomics, genomics, and transcriptomics measurements can be analyzed together to investigate biological heterogeneity. Whether additional data layers improve prediction is a research question: it has to be measured on held-out data, and it is not established in advance.

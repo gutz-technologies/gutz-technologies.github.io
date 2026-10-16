@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based static website for Gutz Technologies, a multi-omics AI company focused on drug repositioning and experimental design (trial/biomarker design) for pharmaceutical and research partners. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The platform models patient biology across multiple molecular layers to resolve disease subtypes, match existing compounds to the subtypes they work in, and design the experiments that prove it. Companion diagnostics is a related, secondary capability rather than the core positioning. Autism spectrum disorder is the initial focus area; the platform also applies to oncology, autoimmune, and neurological diseases.
+This is a Jekyll-based static website for Gutz Technologies, a multi-omics AI company focused on drug repositioning and experimental design (trial/biomarker design) for pharmaceutical and research partners. The site is built using Jekyll 4.2 and is designed for GitHub Pages deployment. The platform develops multi-omics models to help partners prioritize candidate therapies, biomarkers, and experiments. Treatment-response and causal claims are research objectives that still need validation. Companion diagnostics is a related, secondary capability rather than the core positioning. Autism spectrum disorder is the initial focus area; the platform also applies to oncology, autoimmune, and neurological diseases.
 
 **Positioning note:** The company is platform/services-led and pharma-led in audience. It is currently undecided whether it will ever own and develop a repositioned asset itself — so site copy should NOT imply Gutz takes drugs through the clinic. Frame repositioning as surfacing prioritized candidates and evidence *for partners*, who take them forward. Avoid "lead indication" (implies an owned pipeline); use "initial focus" instead.
 
@@ -82,7 +82,7 @@ bundle exec jekyll build
 **Business Focus:**
 - The site is positioned around drug repositioning and experimental design (trial cohort stratification + biomarker panel design); companion diagnostics is a related, secondary capability
 - Audience is pharma-led/both: pharmaceutical BD/portfolio/clinical teams and research consortia (e.g. Wellcome LEAP). Not direct-to-patient/B2C
-- Initial focus area: autism spectrum disorder (validated via Nature Neuroscience subtype work). Platform also applies to oncology immunotherapies, autoimmune biologics, CNS therapeutics
+- Initial focus area: autism spectrum disorder. Morton et al., *Nature Neuroscience* (2023) reports case-control AUROC for microbial classifiers distinguishing ASD cases from controls. It does not establish subtype validation, classification accuracy, a clinical diagnostic, treatment selection, or prospective autism prediction. Oncology immunotherapies, autoimmune biologics, and CNS therapeutics are potential applications that each need their own validation
 - The multi-omics AI platform is the proprietary technology
 - Do not overclaim asset ownership: it is undecided whether Gutz will develop a repositioned asset itself — frame outputs as candidates/evidence delivered to partners
 
