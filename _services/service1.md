@@ -3,53 +3,53 @@ title: "Drug Repositioning & Experimental Design"
 date: 2019-01-28T15:15:26+10:00
 weight: 1
 ---
-We use multi-omics AI to identify which existing compounds are likely to work for which biological subtypes—and to design the trials and biomarker panels that prove it. Our initial focus is autism spectrum disorder, with the same platform applicable across oncology, autoimmune, and neurological diseases.
+We develop multi-omics models to help partners evaluate drug-repositioning hypotheses and design biomarker studies and experiments. Autism spectrum disorder is our initial focus; other therapeutic areas require application-specific evaluation.
 
 ## Our Platform Advantage
 
-Our proprietary platform integrates microbiome, metabolomics, genomics, and transcriptomics data to identify multi-omics signatures that predict treatment response.
+Our platform brings microbial and host data into a common modeling framework to investigate candidate biomarkers and biological heterogeneity. Treatment-response modeling requires relevant treatment and outcome data.
 
-**Exponential Accuracy Scaling:** Adding more biological data layers yields exponentially better forecasting accuracy, enabling robust patient stratification even in complex heterogeneous populations.
+**Measured Predictive Value:** We evaluate whether additional data layers improve performance on held-out data.
 
-**Proprietary Database:** 1 million curated samples across microbiome and host transcriptome provide unprecedented validation power for biomarker discovery.
+**Data Integration:** We combine relevant datasets while accounting for their measurement, cohort, and access limitations.
 
-**Proven Methodology:** Published in Nature journals and validated through pharmaceutical collaborations and research consortia across multiple therapeutic areas.
+**Scientific Foundations:** Published methods support our research approach; each new application requires its own validation.
 
 ## What We Do
 
 ### Drug Repositioning
 
-Surface existing, already-de-risked compounds likely to work for specific biological subtypes—giving partners a faster, lower-risk path to the clinic.
+Prioritize existing compounds for experimental evaluation against candidate biological mechanisms.
 
-**The Opportunity:** Most therapies fail not because the molecule doesn't work, but because it works only in a subpopulation that trials never isolated. Existing compounds carry known safety profiles and manufacturing—repositioning them against the right biological subtype is faster and cheaper than developing new chemistry.
+**The Opportunity:** Biological heterogeneity can complicate treatment development. Existing compounds offer prior evidence that may inform repositioning, while efficacy and safety in a new population still require evaluation.
 
-**Our Approach:** We model patient biology across multiple molecular layers to resolve heterogeneous populations into well-defined subtypes, then identify the compounds—approved or shelved—whose mechanism aligns with the biology actually driving symptoms. We deliver the prioritized candidates and the evidence behind them; our partners take them forward.
+**Our Approach:** We model patient biology across multiple molecular layers to resolve heterogeneous populations into well-defined subtypes, then identify the compounds—approved or shelved—whose mechanism aligns with candidate disease mechanisms. We deliver the prioritized candidates and the evidence behind them; our partners take them forward.
 
-**Example Scenarios:**
-- **Autism (initial focus):** We identify microbiome- and metabolite-defined subtypes and prioritize existing compounds whose mechanisms target the pathways driving each subtype.
+**Potential Research Applications (not established treatment-selection capabilities):**
+- **Autism (initial focus):** Investigate microbial and molecular profiles and prioritize mechanistic hypotheses for testing.
 - **Neurological:** Gut-brain axis signatures point to repositioning candidates for biologically defined patient subsets.
-- **Autoimmune:** Inflammatory phenotypes identified across omics layers suggest existing biologics likely to benefit specific responder groups.
+- **Autoimmune:** Inflammatory phenotypes identified across omics layers suggest candidate biologics for further evaluation.
 
 ### Experimental Design
 
-Design trials and biomarker panels that maximize signal before money is spent on a study.
+Evaluate study designs and candidate biomarker panels before committing to a study.
 
 **The Challenge:** Trials fail at high rates when patient heterogeneity masks real treatment effects in responsive subpopulations. The cost of a mis-powered or mis-stratified study is enormous.
 
-**Our Solution:** Analyze Phase 1/2 data or existing datasets to identify the multi-omics biomarkers that predict response, then design cohort stratification and biomarker panels that enrich for responders—increasing statistical power and the probability of a clear result.
+**Our Approach:** Where suitable treatment and outcome data are available, evaluate candidate response biomarkers and stratification strategies. Any proposed enrichment strategy requires independent validation; response associations alone do not establish differential treatment benefit.
 
 **What This Looks Like:**
-- **Cohort stratification:** Define the responder subpopulation up front so enrollment enriches for signal.
-- **Biomarker selection:** Choose the minimal multi-omics panel that separates responders from non-responders.
+- **Cohort stratification:** Propose and test biologically motivated patient groups.
+- **Biomarker selection:** Evaluate the predictive contribution and cost of candidate measurements.
 - **Endpoint and power planning:** Align endpoints and sample size to the biology, not to a one-size-fits-all population.
 
 ## Related: Companion Diagnostics
 
-The same signature that says "this drug works in this subpopulation" can be developed into a companion diagnostic—turning a repositioning thesis into a regulated, reimbursable test. For partners whose program calls for it, we support biomarker qualification, assay validation, and regulatory strategy (see Deliverables below).
+A validated treatment-associated biomarker may motivate companion diagnostic development. Clinical utility, assay performance, and regulatory requirements must be established separately with appropriate clinical and regulatory expertise.
 
-## Therapeutic Area Expertise
+## Potential Therapeutic Applications
 
-We focus on therapeutic areas where microbiome and multi-omics integration provide maximum clinical value:
+Applications to evaluate with indication-specific data include:
 
 **Oncology**
 - Immunotherapy response prediction
@@ -66,12 +66,14 @@ We focus on therapeutic areas where microbiome and multi-omics integration provi
 - Neuroinflammatory disease stratification
 - Drug metabolism prediction
 
-## Deliverables
+## Potential Project Deliverables
+
+Scope depends on the available data and validation evidence. Research outputs are candidate hypotheses and plans unless independently validated.
 
 **Biomarker Discovery:**
-- Multi-omics biomarker panel predicting treatment response
+- Candidate multi-omics biomarker panel and a response-prediction evaluation plan
 - Mechanistic insights into responder biology
-- Validation across our 1M sample database
+- Validation using independent datasets appropriate to the intended use
 
 **Companion Diagnostic Development:**
 - Clinical assay protocol and validation plan
@@ -81,17 +83,17 @@ We focus on therapeutic areas where microbiome and multi-omics integration provi
 **Clinical & Regulatory Support:**
 - Protocol design for stratified trials
 - Statistical analysis plan for companion diagnostic validation
-- Scientific publication support demonstrating stratified efficacy
+- Scientific publication support reporting results and limitations
 - Adaptive trial design recommendations (for rescue scenarios)
 
 ## Why Multi-Omics Integration Matters
 
-Single-omics approaches miss critical interactions. Patient microbiome composition affects drug metabolism, immune response, and inflammation—but the effects are only fully captured when integrating:
+Single-omics approaches miss critical interactions. Patient microbiome composition affects drug metabolism, immune response, and inflammation—which motivates joint evaluation of:
 - **Microbiome composition** (who's there)
 - **Metabolomics** (what they're doing)
 - **Host genomics** (patient genetics)
 - **Host transcriptomics** (patient immune/metabolic state)
 
-Our platform reveals patterns no single omics layer can detect, maximizing your ability to identify true responder populations versus statistical noise.
+Joint modeling can uncover complementary signals. Its added value must be tested against appropriate single-omics baselines and independent validation data.
 
-[Contact us](https://gutztechnologies.com/contact/) to discuss repositioning a compound, stratifying your patient population, or designing a trial that succeeds.
+[Contact us](https://gutztechnologies.com/contact/) to discuss repositioning a compound, stratifying your patient population, or evaluating a study design.

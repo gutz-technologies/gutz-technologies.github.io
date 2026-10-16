@@ -7,29 +7,27 @@ bodyClass: page-about
 
 ## What We Do
 
-Gutz Technologies builds multi-omics AI that identifies which existing drugs work for which biological subtypes—and designs the experiments that prove it. We partner with pharmaceutical teams and research consortia on drug repositioning and trial design.
+Gutz Technologies develops multi-omics AI to help pharmaceutical teams and research consortia prioritize candidate therapies, biomarkers, and experiments. Autism spectrum disorder is our initial focus.
 
-We measure multiple layers of patient biology: the gut microbiome, metabolism, proteins, and genetics. Our AI combines these measurements to build a **digital twin**—a model of how a patient's biology works—and uses it to predict which interventions are most likely to help a given subtype, before they're tested in the clinic.
+We integrate measurements across the gut microbiome and host biology to study disease heterogeneity and biological change over time. Our goal is to help partners decide which therapeutic hypotheses to test and which measurements would most reduce uncertainty.
 
-### How Digital Twins Work
+### Modeling Biology Over Time
 
-Think of a digital twin like a weather forecast, but for human biology. Just as meteorologists combine temperature, pressure, and wind data to predict tomorrow's weather, we combine data from multiple biological systems to model how a patient's body works.
+We are developing longitudinal models that connect molecular measurements with neurodevelopmental outcomes. These models are designed to represent biological trajectories and quantify uncertainty when measurements are incomplete.
 
-Our AI doesn't just take a snapshot. It learns how your biology **changes over time**, capturing interactions between your gut bacteria, metabolism, and immune system. This lets us predict how you'll respond to different interventions—before you try them.
-
-Under the hood, this is powered by a type of AI designed to learn patterns in complex, changing systems. Where standard AI sees a still photo, our platform sees the whole movie.
+Our research combines prediction with explicit assessment of causal assumptions: what the available data can establish, what remains uncertain, and which experiments could resolve it. Predicting an observed outcome does not by itself establish what will happen under an intervention.
 
 ### Our Initial Focus: Autism Spectrum Disorder
 
-We're starting with autism because it's a condition where the same diagnosis can look completely different from one patient to the next—exactly the kind of heterogeneity that defeats one-size-fits-all therapies. Our published research in *Nature Neuroscience* showed that by combining gut microbiome and molecular data, we could identify distinct subtypes of ASD with over 80% accuracy. That subtype resolution is the foundation for matching existing compounds to the patients they're most likely to help, and for designing trials that can detect those effects.
+Our founder co-led a [2023 study in *Nature Neuroscience*](https://www.nature.com/articles/s41593-023-01361-0) identifying ASD-associated microbial and molecular profiles across multiple datasets. This provides a research foundation for investigating biological heterogeneity; it did not establish clinically validated subtypes or a test for selecting treatments.
+
+Our current research aims to improve neurodevelopmental prediction and prioritize biological hypotheses for experimental validation. These objectives are distinct from the published case-control findings.
 
 ### Why Our Approach Is Different
 
-Most health tests look at one thing in isolation—your DNA, or your microbiome, or a blood panel. Each gives a partial view. We combine multiple biological layers, and the result isn't just additive—it's **exponentially more accurate**.
+We bring multiple biological layers into a longitudinal framework, with an emphasis on uncertainty, testable assumptions, and the experiments needed to evaluate candidate mechanisms. The value of each additional data layer must be measured rather than assumed.
 
-Beyond that, most AI finds correlations—patterns that appear together. Our platform identifies **causes**: which biological factors are actually driving symptoms, and what happens when you change them. This is what makes our predictions actionable, not just descriptive.
-
-To make this possible, we built a new programming language from the ground up—designed specifically for constructing AI models that reason about cause-and-effect under uncertainty. This lets us coordinate specialized models across each type of biological data into a single, coherent picture. Combined with our database of over 1 million curated biological samples and methodology validated across multiple *Nature* publications, this gives us a foundation that single-test approaches can't match.
+Our scientific foundations include published work on microbe-metabolite relationships and the analysis of compositional microbiome data. We build on these methods to develop tools for research partners; each new prediction or treatment hypothesis requires validation for its intended use.
 
 ## Leadership Team
 
