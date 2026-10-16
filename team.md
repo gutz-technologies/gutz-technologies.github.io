@@ -46,12 +46,12 @@ bodyClass: page-team
 
 ### Published Research
 
-Our methodology is validated through peer-reviewed publications in leading scientific journals:
+Our scientific foundations include peer-reviewed research in leading scientific journals:
 
 **Autism Research (Current Focus):**
 
 [Multi-level analysis of the gut–brain axis shows autism spectrum disorder-associated molecular and microbial profiles, *Nature Neuroscience*](https://www.nature.com/articles/s41593-023-01361-0)
-<br><small>Key finding: >80% accuracy in ASD prediction using multi-omics integration</small>
+<br><small>Key finding: ASD-associated microbial and molecular profiles across multiple datasets; these findings do not establish a clinical diagnostic or treatment-selection test.</small>
 
 **Platform Methodology:**
 
